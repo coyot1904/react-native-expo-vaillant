@@ -1,5 +1,5 @@
 import React, { useCallback } from "react";
-import { SafeAreaView, View, StyleSheet, Text } from "react-native";
+import { SafeAreaView, View, StyleSheet } from "react-native";
 import { startServer } from "./src/server";
 import CustomerComponent from "./src/customers";
 import { Customer } from "./src/types/customer";
