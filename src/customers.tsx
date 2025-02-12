@@ -25,6 +25,7 @@ const CustomerComponent: React.FC<CodeProps> = ({
             styles.statusIndicator,
             status.isConnected ? styles.green : styles.red,
           ]}
+          accessibilityLabel={status.isConnected ? "Connected" : "Disconnected"}
         />
       );
     },
